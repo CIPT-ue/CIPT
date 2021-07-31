@@ -1,0 +1,78 @@
+:root{
+    --color-rose-red: #BC0653;
+    --color-blue-dark: #002969;
+    --color-blue-dark-osc: #011d49;
+    --color-tumbleweed: #E3B5A4;
+    --color-blanco: #ffff;
+
+
+    --fuente-1: 'Signika Negative', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+.contenedor-maestro{
+
+}
+.proyectos{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+
+}
+.u-chat{
+  width: 20%;
+  border: 2px, 2px, 2px, 2px;
+  border-color: #000;
+  background-color: #002969;
+  border-radius: 2%;
+}
+a{
+  text-decoration:none;
+  color:#fff;
+}
+.u-cluv{
+width: 20%;
+background-color: #002969;
+border-radius: 2%;
+}
+.correos-Inter{
+  width: 20%;
+  background-color: #002969;
+  border-radius: 2%;
+}
+.imagenP{
+  width: 100%;
+  border-radius: 2%;
+}
+.Descripción{
+ /*display: none;*/
+ padding: 2%;
+
+}
+.titulosP{
+  text-align: center;
+}
+.titulo-proyecto{
+  text-align: center;
+  margin-top: 20px;
+  padding: 50px;
+  font-size: 40px;
+  color: #BC0653
+}
+.Descripción:hover{
+  display: block;
+}
