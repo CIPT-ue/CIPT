@@ -35,8 +35,6 @@ body{
 }
 .u-chat{
   width: 20%;
-  border: 2px, 2px, 2px, 2px;
-  border-color: #000;
   background-color: #002969;
   border-radius: 2%;
 }
@@ -75,4 +73,57 @@ border-radius: 2%;
 }
 .Descripción:hover{
   display: block;
+}
+@media screen and (max-width: 850px){
+  .proyectos{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+  }
+  .u-chat{
+    width: 35%;
+    margin: auto;
+  }
+  .u-cluv{
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  .correos-Inter{
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  .titulo-proyecto{
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 650px){
+  .u-chat{
+    width: 45%;
+
+  }
+  .u-cluv{
+    width: 45%;
+
+  }
+  .correos-Inter{
+    width: 45%;
+
+  }
+}
+@media screen and (max-width: 450px){
+  .u-chat{
+    width: 65%;
+
+  }
+  .u-cluv{
+    width: 65%;
+
+  }
+  .correos-Inter{
+    width: 65%;
+
+  }
 }
