@@ -1,0 +1,118 @@
+:root {
+  --color-rose-red: #bc0653;
+  --color-blue-dark: #002969;
+  --color-blue-dark-osc: #011d49;
+  --color-tumbleweed: #e3b5a4;
+  --color-blanco: #ffff;
+
+  --fuente-1: "Signika Negative", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+
+.proyectos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  width: 90%;
+}
+.u-chat {
+  width: 20%;
+  background-color: #002969;
+  border-radius: 2%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.u-cluv {
+  width: 20%;
+  background-color: #002969;
+  border-radius: 2%;
+}
+.correos-Inter {
+  width: 20%;
+  background-color: #002969;
+  border-radius: 2%;
+}
+.imagenP {
+  width: 100%;
+  border-radius: 2%;
+}
+.Descripción {
+  /*display: none;*/
+  padding: 2%;
+}
+.titulosP {
+  text-align: center;
+}
+.titulo-proyecto {
+  text-align: center;
+  margin-top: 20px;
+  padding: 50px;
+  font-size: 40px;
+  color: #bc0653;
+}
+.Descripción:hover {
+  display: block;
+}
+@media screen and (max-width: 850px) {
+  .proyectos {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+  }
+  .u-chat {
+    width: 35%;
+    margin: auto;
+  }
+  .u-cluv {
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  .correos-Inter {
+    width: 35%;
+    margin: auto;
+    margin-top: 5%;
+  }
+  .titulo-proyecto {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .u-chat {
+    width: 45%;
+  }
+  .u-cluv {
+    width: 45%;
+  }
+  .correos-Inter {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .u-chat {
+    width: 65%;
+  }
+  .u-cluv {
+    width: 65%;
+  }
+  .correos-Inter {
+    width: 65%;
+  }
+}

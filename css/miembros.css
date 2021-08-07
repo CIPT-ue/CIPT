@@ -136,6 +136,12 @@ a{
   }
 }
 @media screen and (max-width: 850px) {
+  .Miembros .contenedor .Personas{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 28%;
+  }
   .facebook{
     margin-left: 0px;
     margin-right: 0px;
