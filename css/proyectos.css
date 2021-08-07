@@ -1,24 +1,7 @@
-:root {
-  --color-rose-red: #bc0653;
-  --color-blue-dark: #002969;
-  --color-blue-dark-osc: #011d49;
-  --color-tumbleweed: #e3b5a4;
-  --color-blanco: #ffff;
-
-  --fuente-1: "Signika Negative", sans-serif;
-}
-
-body {
+#proyectos {
+  background: var(--color-background);
+  height: 100vh;
   margin: 0;
-  padding: 0;
-}
-* {
-  box-sizing: border-box;
-}
-body {
-  background: #fff;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
 }
 
 .proyectos {
@@ -61,7 +44,6 @@ a {
 }
 .titulo-proyecto {
   text-align: center;
-  margin-top: 20px;
   padding: 50px;
   font-size: 40px;
   color: #bc0653;
