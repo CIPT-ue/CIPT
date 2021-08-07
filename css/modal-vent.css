@@ -1,0 +1,132 @@
+.overlay-window{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .4);
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.modal-vent{
+    background-color: var(--color-blanco);
+    padding: 20px 30px;
+    max-width: 85%;
+    max-height: 95%;
+    font-family: var(--fuente-1);
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-vent .head-modal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+}
+    .head-modal .tittl-proj{
+        color: var(--color-blue-dark-osc);
+        font-size: 1.2rem;
+    }
+    .head-modal .btn-close-modal{
+        width: 25px; height: 25px;
+        background-color: transparent;
+        fill: var(--color-rose-red);
+        border: none;
+        cursor: pointer;
+    }
+        .btn-close-modal:hover{
+            fill: #820036;
+        }
+    
+.details-modal{
+    font-family: var(--fuente-2);
+}
+    .details-modal .topic{
+        font-family: var(--fuente-1);
+        font-size: 1rem;
+        line-height: 1.5rem;
+        border-left: 5px solid var(--color-rose-red);
+        padding-left: 10px;
+        font-weight: bold;
+        display: block;
+        width: 100%;
+        margin-bottom: 7px;
+    }
+    .description-project .content{
+        font-weight: 700;
+        font-size: .9rem;
+    }
+    .credicts{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 15px 0;
+    }
+        .cl .authors{
+            display: flex;
+            align-items: center;
+        }
+            .authors .link-author{
+                text-decoration: none;
+                color: var(--color-blanco);
+                display: flex;
+                border-radius: 100px;
+                padding: 5px 15px;
+                background-color: var(--color-blue-dark);
+                font-size: .7rem;
+                font-weight: 900;
+                align-items: center;
+                justify-content: center;
+                margin: 0 5px;
+            }
+            .authors .link-author:hover{
+                background-color: var(--color-blue-dark-osc);
+                color: var(--color-tumbleweed);
+            }
+        .credicts .view-prj{
+            width: 90%;
+            margin: auto;
+            font-family: var(--fuente-1);
+            text-decoration: none;
+            font-size: 1rem;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1.5px solid var(--color-blue-dark-osc);
+            border-radius: 100px;
+            color: var(--color-blue-dark);
+            background-color: var(--color-blanco);
+
+            transition: all ease .2s;
+        }
+        .credicts .view-prj:hover{
+            background-color: var(--color-blue-dark);
+            color: var(--color-blanco);
+        }
+
+
+/* --------CONTENEDOR PARA IMAGENES------------ */
+.container-modal{
+    overflow: scroll;
+    
+}
+    .container-modal::-webkit-scrollbar{
+        display: none;
+    }
+
+
+    .container-photos{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .container-photos img{
+            width: 100%;
+        }
