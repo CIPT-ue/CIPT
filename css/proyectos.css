@@ -37,10 +37,12 @@ a {
 }
 .Descripción {
   /*display: none;*/
+  font-size: 20px;
   padding: 2%;
 }
 .titulosP {
   text-align: center;
+  font-size: 25px;
 }
 .titulo-proyecto {
   text-align: center;

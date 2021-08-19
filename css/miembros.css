@@ -80,7 +80,8 @@ a {
   flex-direction: row;
   justify-content: space-between;
   position: relative;
-  bottom: 20px;
+  top:25px;
+  right: 5px;
 }
 .facebook:hover {
   background: #3b5998;
@@ -93,7 +94,7 @@ a {
 }
 .trabajo {
   position: relative;
-  bottom: 15px;
+  top: 20px;
   padding: 0px;
   margin: 0px;
   color: #fff;
